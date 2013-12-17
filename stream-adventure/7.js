@@ -1,4 +1,4 @@
-// Stream-adventure Exercise 6 HTTP SERVER
+// Stream-adventure Exercise 7 HTTP SERVER
 
 var http = require('http');
 var fs = require('fs');
@@ -11,6 +11,8 @@ function onRequest(request, response) {
 		request.pipe(tr).pipe(response);	
 	}
 }
+
+// through functions
 
 function write(data) { 
 	this.queue(data.toString().toUpperCase()) 

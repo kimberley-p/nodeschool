@@ -1,4 +1,4 @@
-// Stream-adventure Exercise 6 HTTP CLIENT
+// Stream-adventure Exercise 8 HTTP CLIENT
 
 var request = require('request');
 
@@ -13,6 +13,6 @@ input.pipe(r).pipe(output);
 // official solution
 
 
-    var request = require('request');
-    var r = request.post('http://localhost:8000');
-    process.stdin.pipe(r).pipe(process.stdout);
+    // var request = require('request');
+    // var r = request.post('http://localhost:8000');
+    // process.stdin.pipe(r).pipe(process.stdout);
