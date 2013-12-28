@@ -1,4 +1,4 @@
-// nodeschool.io EXPRESSWORKS - exercise 1 
+// nodeschool.io EXPRESSWORKS - exercise 2 Jade
 
 //INSTRUCTIONS
 
