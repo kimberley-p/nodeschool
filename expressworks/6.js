@@ -12,6 +12,9 @@
 //     .createHash('sha1')
 //     .update(new Date().toDateString().toString() + id)
 //     .digest('hex')
+
+//SOLUTION
+
 var express = require('express')
 var crypto = require('crypto');
 
